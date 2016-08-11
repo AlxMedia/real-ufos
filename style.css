@@ -434,6 +434,8 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #more-block .entry-tagline .fa { margin-right: 2px; }
 #more-block .entry.one-fifth span.entry-image { margin-bottom: 0; }
 
+#more-block .coming-soon { text-align: center; color: #999; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 42px; margin: 100px 0; }
+
 /* tabs-nav */
 .alx-tabs-nav { float: left; text-align: center; padding-top: 4px; border-top: 1px solid #ddd; }
 .alx-tabs-nav.tab-count-1 li { width: 100%; }
