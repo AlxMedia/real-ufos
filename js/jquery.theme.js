@@ -7,10 +7,7 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop:0},'slow');
 		return false;
 	});
-	$('a.toggle-button').click(function() {
-		$('html, body').animate({scrollTop:0},'slow');
-		return false;
-	});
+
 	
 /*---------------------------------------------------------------------------*
  * Tabs
@@ -34,24 +31,12 @@ jQuery(document).ready(function($) {
 			.addClass('active');
 			
 			$this.parent().next().children('.alx-tab').stop(true,true).hide()
-			.siblings( $this.find('a').attr('href') ).fadeIn();
+			.siblings( $this.find('a').attr('href') ).show();
 			e.preventDefault();
 		}).children( window.location.hash ? 'a[href=' + window.location.hash + ']' : 'a:first' ).trigger('click');
 
 	})();	
 
-/*---------------------------------------------------------------------------*
- * Scrollspy Animated
-/*---------------------------------------------------------------------------*/	
-	$(function() {
-		$('#header').scrollSpy()			
-		$('#header ul.nav li a').bind('click', function(e) {
-			e.preventDefault();
-			target = this.hash;
-			console.log(target);
-			$.scrollTo(target, 1000);
-		});
-	});
 	
 /*---------------------------------------------------------------------------*
  * prettyPhoto
@@ -61,9 +46,40 @@ jQuery(document).ready(function($) {
 		default_height: 390
 	});
 
+
+/*---------------------------------------------------------------------------*
+ * Scrollspy Animated
+/*---------------------------------------------------------------------------*/		
+	
+	// Add scrollspy to <body>
+	$('body').scrollspy({target: ".nav", offset: 50});   
+
+	// Add smooth scrolling on all links inside the navbar
+	$(".nav a").on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+			// Prevent default anchor click behavior
+			event.preventDefault();
+
+			// Store hash
+			var hash = this.hash;
+
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (400) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 400, function(){
+	   
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+			});
+		}  // End if
+	});
+	
+	
 /*---------------------------------------------------------------------------*
  * Smooth scroll link to anchor
-/*---------------------------------------------------------------------------*/	
+/*---------------------------------------------------------------------------	
 	function filterPath(string) {
 	return string
 	.replace(/^\//,'')
@@ -109,5 +125,5 @@ jQuery(document).ready(function($) {
 	}
 	return [];
 	}
-	
+	*/
 });
