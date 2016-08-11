@@ -130,6 +130,7 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 #quotes-block, 
 #cases-block, 
 #sightings-block, 
+#more-block,
 #comments, 
 #footer { width: 100%; clear: both; position: relative; min-width: 980px; }
 
@@ -141,6 +142,7 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 #quotes-block-inner, 
 #cases-block-inner, 
 #sightings-block-inner, 
+#more-block-inner, 
 #comments-inner, 
 #subfooter-inner, 
 #footer-inner { position: relative; }
@@ -162,8 +164,8 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 #content .arc.top { background-position: center -300px; }
 #quotes .arc { background-position: center -100px; }
 #cases .arc { background-position: center -300px; }
-#sightings .arc { background-position: center -200px; }
-#deep .arc { background-position: center -200px; }
+#sightings .arc { background-position: center -400px; }
+#more .arc { background-position: center -200px; }
 #comments .arc { background-position: center -200px; }
 #footer .arc { background: none; }
 
@@ -417,6 +419,35 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #sightings-block-inner { padding: 40px 0 60px; }
 
 #sightings-block .entry-tagline .fa { margin-right: 2px; }
+
+
+/* ------------------------------------------------------------------------- *
+ *  More
+/* ------------------------------------------------------------------------- */
+#more-block { z-index: 5; background: #eee; }
+#more-block-inner { padding: 40px 0 60px; }
+
+#more-block .tagline { background: #ccc; } 
+#more-block .tagline span { background: #eee; }
+
+#more-block .entry  { background: #fff; }
+#more-block .entry-tagline .fa { margin-right: 2px; }
+#more-block .entry.one-fifth span.entry-image { margin-bottom: 0; }
+
+/* tabs-nav */
+.alx-tabs-nav { float: left; text-align: center; padding-top: 4px; border-top: 1px solid #ddd; }
+.alx-tabs-nav.tab-count-1 li { width: 100%; }
+.alx-tabs-nav.tab-count-2 li { width: 50%; }
+.alx-tabs-nav.tab-count-3 li { width: 33.333%; }
+.alx-tabs-nav.tab-count-4 li { width: 25%; }
+.alx-tabs-nav li { display: block; float: left; }
+.alx-tabs-nav li a { font-size: 18px; display: block; border-bottom: 3px solid #ddd; color: #999; padding: 12px 0; border-radius: 4px 4px 0 0; }
+.alx-tabs-nav li a:hover { border-bottom-color: #ccc; color: #222; }
+.alx-tabs-nav li.active a { border-bottom-color: #4183c4; color: #4183c4; }
+.alx-tabs-nav li a span { font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; }
+
+/* tabs */
+.alx-tabs-container { float: left; width: 100%; }
 
 
 /* ------------------------------------------------------------------------- *

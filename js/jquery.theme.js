@@ -11,6 +11,34 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop:0},'slow');
 		return false;
 	});
+	
+/*---------------------------------------------------------------------------*
+ * Tabs
+/*---------------------------------------------------------------------------*/
+	(function() {
+		var $tabsNav       = $('.alx-tabs-nav'),
+			$tabsNavLis    = $tabsNav.children('li'),
+			$tabsContainer = $('.alx-tabs-container');
+
+		$tabsNav.each(function() {
+			var $this = $(this);
+			$this.next().children('.alx-tab').stop(true,true).hide()
+			.siblings( $this.find('a').attr('href') ).show();
+			$this.children('li').first().addClass('active').stop(true,true).show();
+		});
+
+		$tabsNavLis.on('click', function(e) {
+			var $this = $(this);
+
+			$this.siblings().removeClass('active').end()
+			.addClass('active');
+			
+			$this.parent().next().children('.alx-tab').stop(true,true).hide()
+			.siblings( $this.find('a').attr('href') ).fadeIn();
+			e.preventDefault();
+		}).children( window.location.hash ? 'a[href=' + window.location.hash + ']' : 'a:first' ).trigger('click');
+
+	})();	
 
 /*---------------------------------------------------------------------------*
  * Scrollspy Animated
