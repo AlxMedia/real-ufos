@@ -441,10 +441,11 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 .alx-tabs-nav.tab-count-3 li { width: 33.333%; }
 .alx-tabs-nav.tab-count-4 li { width: 25%; }
 .alx-tabs-nav li { display: block; float: left; }
-.alx-tabs-nav li a { font-size: 18px; display: block; border-bottom: 3px solid #ddd; color: #999; padding: 12px 0; border-radius: 4px 4px 0 0; }
+.alx-tabs-nav li a { font-size: 22px; display: block; border-bottom: 3px solid #ddd; color: #999; padding: 12px 0; border-radius: 4px 4px 0 0; }
 .alx-tabs-nav li a:hover { border-bottom-color: #ccc; color: #222; }
 .alx-tabs-nav li.active a { border-bottom-color: #4183c4; color: #4183c4; }
-.alx-tabs-nav li a span { font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; }
+.alx-tabs-nav li a span { font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; margin-left: 2px; }
+.alx-tabs-nav li a strong { background: #ddd; padding: 0 4px; margin-left: 4px; border-radius: 3px; }
 
 /* tabs */
 .alx-tabs-container { float: left; width: 100%; }
