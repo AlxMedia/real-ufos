@@ -7,11 +7,11 @@
 	#header-spacer { height: 0; }
 	#header-inner { height: auto; }
 	#header-inner strong { display: none; }
-	ul.nav { padding: 0; width: 100%; border-left: none; box-shadow: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+	ul.nav { padding: 0; height: auto; width: 100%; border-left: none; box-shadow: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
 	ul.nav li {  width: 25%; text-align: center; box-sizing: border-box; border-right: 1px solid #ddd; }
-	ul.nav li a { padding: 0; width: 100%; display: block; }
+	ul.nav li a { padding: 0; padding-top: 4px; width: 100%; display: block; }
 	ul.nav li.active a { background: #ddd; }
-	ul.nav li a i { margin-right: 0; }
+	ul.nav li a i { margin-right: 0; font-size: 18px; }
 	
 	#socialmedia { width: 273px; box-shadow: none; position: relative; right: 0; padding-left: 15px; padding-right: 10px; border-right: 1px solid #ddd; }
 	#socialmedia #stumbleupon { right: 15px; }
