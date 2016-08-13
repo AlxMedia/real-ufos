@@ -7,6 +7,9 @@
 	#header-spacer { height: 0; }
 	#header-inner { height: auto; }
 	#header-inner strong { display: none; }
+	#logo { margin: 0; width: 100%; text-align: center; }
+	#logo,
+	#logo a .fa { font-size: 30px; }
 	ul.nav { padding: 0; height: auto; width: 100%; border-left: none; box-shadow: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
 	ul.nav li {  width: 25%; text-align: center; box-sizing: border-box; border-right: 1px solid #ddd; }
 	ul.nav li a { padding: 0; padding-top: 4px; width: 100%; display: block; }
