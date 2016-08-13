@@ -84,14 +84,6 @@ strong { font-weight: bold; }
     font-style: normal;
 }
 
-/* move admin bar to bottom */	
-* html body { margin-top: 0 !important; }
-body.admin-bar { margin-top: -28px; padding-bottom: 28px; }
-body.wp-admin #footer { padding-bottom: 28px; }
-#wpadminbar { top: auto !important; bottom: 0; }
-#wpadminbar .quicklinks .ab-sub-wrapper { bottom: 28px; }
-#wpadminbar .quicklinks .ab-sub-wrapper ul .ab-sub-wrapper { bottom: -7px; }	
-
 
 /* ------------------------------------------------------------------------- *
  *  Core Text
@@ -177,21 +169,21 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); }
-#header-inner { height: 48px; position: relative; }
+#header-inner { height: 58px; position: relative; }
 #header-inner .grid-12 { margin: 0 10px; }
 
-#logo { padding: 10px 0; font-family: 'Oswald', sans-serif; font-weight: normal; color: #222; float: left; margin-right: 30px; font-size: 24px; line-height: 28px; letter-spacing: -0.5px; text-transform: uppercase; }
+#logo { padding: 15px 0; font-family: 'Oswald', sans-serif; font-weight: normal; color: #222; float: left; margin-right: 30px; font-size: 24px; line-height: 28px; letter-spacing: -0.5px; text-transform: uppercase; }
 #logo a { color: #222; }
 #logo a:hover { color: #333; }
 #logo a .fa { color: #4183c4; font-size: 28px; vertical-align: 5%; margin-right: 6px; }
 #tagline { float: left; color: #999; line-height: 28px; display: none; }
 
-ul.nav { float: left; height: 48px; padding: 0; border-left: 1px solid #e0e0e0; padding-left: 20px;
+ul.nav { float: left; height: 58px; padding: 0; border-left: 1px solid #e0e0e0; padding-left: 20px;
 -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
 ul.nav li { float: left; display: inline; line-height: 48px; list-style: none; }
-ul.nav li a { display: block; color: #4183c4; font-weight: bold; cursor: pointer; padding: 0 16px; }
+ul.nav li a { display: block; color: #4183c4; font-weight: bold; cursor: pointer; padding: 5px 16px; }
 ul.nav li a:hover  { color: #000; }
 ul.nav li.active a { background: #e9e9e9; color: #777;
 -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,0.05);
@@ -200,7 +192,7 @@ box-shadow: inset 0 3px 5px rgba(0,0,0,0.05); }
 ul.nav li a span { font-weight: normal; color: #bbb; }  
 ul.nav li a i { font-size: 16px; margin-right: 4px; }
 
-#socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 14px 0; width: 280px; border-left: 1px solid #e0e0e0; padding-left: 20px;
+#socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 19px 0; width: 280px; border-left: 1px solid #e0e0e0; padding-left: 20px;
 -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
@@ -208,14 +200,14 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
 #socialmedia .twitter-share-button { width: 80px!important; }
 #socialmedia .fb-like { width: 100px; height: 20px; position: relative; top: 0; }
 #socialmedia #___plusone_0 { position: absolute; top: 14px; right: 10px; float: right; }
-#socialmedia #stumbleupon { position: absolute; top: 16px; right: 0; float: right; }
+#socialmedia #stumbleupon { position: absolute; top: 20px; right: 0; float: right; }
 
 
 /* ------------------------------------------------------------------------- *
  *  Subheader
 /* ------------------------------------------------------------------------- */
-#header-spacer { height: 49px; width: 100%; }
-#subheader { background: #000 url(img/header.jpg) no-repeat bottom center; height: 400px; padding-top: 80px; position: fixed; top: 49px; left: 0; right: 0; width: 100%; z-index: -1; }
+#header-spacer { height: 59px; width: 100%; }
+#subheader { background: #000 url(img/header.jpg) no-repeat bottom center; height: 400px; padding-top: 80px; position: fixed; top: 59px; left: 0; right: 0; width: 100%; z-index: -1; }
 #subheader .huge { color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.4); font-size: 110px; height: 130px; }
 #subheader .tagline { background: url(img/line.png) repeat;
 -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.15);
