@@ -22,20 +22,10 @@
 	#subheader .tagline span { background: none; }
 	#content { margin-top: 0; }
 	
-	.container-12,.container-16 { width: 320px; }
-
-	/* 12 column grid */
-	.container-12 .grid-1 { width: 60px; } 
-	.container-12 .grid-2 { width: 140px; }
-	.container-12 .grid-3 { width: 220px; }
-	.container-12 .grid-4 { width: 300px; } 
-	.container-12 .grid-5 { width: 380px; }
-	.container-12 .grid-6 { width: 300px; }
-	.container-12 .grid-7 { width: 540px; } 
-	.container-12 .grid-8 { width: 300px; }
-	.container-12 .grid-9 { width: 700px; }
-	.container-12 .grid-10 { width: 780px; } 
-	.container-12 .grid-11 { width: 860px; }
+	.container-12 { width: 320px; }
+	.container-12 .grid-4,
+	.container-12 .grid-6,
+	.container-12 .grid-8,
 	.container-12 .grid-12 { width: 300px; }
 	
 	#header, 
