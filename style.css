@@ -199,7 +199,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
 #socialmedia iframe { float: left; background: transparent; }
 #socialmedia .twitter-share-button { width: 80px!important; }
 #socialmedia .fb-like { width: 100px; height: 20px; position: relative; top: 0; }
-#socialmedia #___plusone_0 { position: absolute; top: 14px; right: 10px; float: right; }
+#socialmedia #___plusone_0 { position: absolute; top: 19px; right: 10px; float: right; }
 #socialmedia #stumbleupon { position: absolute; top: 20px; right: 0; float: right; }
 
 
