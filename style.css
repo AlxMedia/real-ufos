@@ -289,7 +289,7 @@ transition-property: background color; transition-duration: 0.2s; transition-tim
  *  Quotes
 /* ------------------------------------------------------------------------- */
 #quotes-block { z-index: 8; background: #000; }
-#quotes-block-inner { padding: 40px 0 60px; }
+#quotes-block-inner { padding: 60px 0 60px; }
 #quotes-block .divider { color: #fff; border-bottom-color: #2b2b2b; border: none; }
 #quotes-block .huge { color: #fff; }
 #quotes-block .tagline { background: #222; }
@@ -368,7 +368,7 @@ box-shadow: 0 0 6px rgba(0,0,0,0.5); }
  *  Famous Cases
 /* ------------------------------------------------------------------------- */
 #cases-block { z-index: 7; background: #4183c4; }
-#cases-block-inner { padding: 40px 0 60px; }
+#cases-block-inner { padding: 60px 0 60px; }
 #cases-block .divider { color: #fff; border-bottom-color: #5391ce; border: none; }
 
 #cases-block a { color: #222; }
@@ -408,7 +408,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
  *  Sightings
 /* ------------------------------------------------------------------------- */
 #sightings-block { z-index: 6; }
-#sightings-block-inner { padding: 40px 0 60px; }
+#sightings-block-inner { padding: 60px 0 60px; }
 
 #sightings-block .entry-tagline .fa { margin-right: 2px; }
 
@@ -417,7 +417,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
  *  More
 /* ------------------------------------------------------------------------- */
 #more-block { z-index: 5; background: #eee; }
-#more-block-inner { padding: 40px 0 60px; }
+#more-block-inner { padding: 60px 0 60px; }
 
 #more-block .tagline { background: #ccc; } 
 #more-block .tagline span { background: #eee; }

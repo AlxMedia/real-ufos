@@ -47,6 +47,11 @@
 	#comments, 
 	#footer { width: 100%; clear: both; position: relative; min-width: 100%; }
 	
+	#quotes-block-inner,
+	#cases-block-inner,
+	#sightings-block-inner,
+	#more-block-inner { padding-top: 40px; }
+	
 	.entry.one-half,
 	.entry.one-third { width: 285px; }
 	
