@@ -271,6 +271,7 @@ transition-property: background color; transition-duration: 0.2s; transition-tim
 /* entry: case small */
 .entry.simple { width: 286px; }
 .entry.simple span.entry-heading { margin: 4px 0; padding: 0 6px; }
+.entry.simple span.entry-heading strong { font-weight: normal; color: #777; }
 
 /* entry: sightings */
 .entry.one-fifth { width: 166px; margin-right: 10px; margin-bottom: 10px; }
