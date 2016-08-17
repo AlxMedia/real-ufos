@@ -430,6 +430,8 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #more-block .tagline span { background: #eee; }
 
 #more-block .entry  { background: #fff; }
+#more-block .entry.disabled { opacity: 0.5; }
+#more-block .entry.disabled:hover { opacity: 1; border-color: #ddd; }
 
 #more-block .coming-soon { text-align: center; color: #999; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 42px; margin: 100px 0; }
 #more-block .coming-soon span { display: block; color: #ccc; font-size: 80px; }
