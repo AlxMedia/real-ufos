@@ -56,7 +56,8 @@
 	.entry.one-third { width: 285px; }
 	
 	#quotes-block .grid-6.omega { margin-left: 0; margin-right: 10px; }
-	#quotes-block blockquote { width: 170px; }
+	#quotes-block blockquote { width: 200px; margin-right: 70px; }
+	#quotes-block blockquote .thumb { z-index: -1; right: -70px; }
 	
 	#cases-block .case-wrap { width: 300px; }
 	#cases-block .entry.case { width: 286px; }
