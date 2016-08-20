@@ -11,7 +11,7 @@
 	<meta name="description" content="View important evidence for real UFOs - find quotes, cases, sightings and more.">
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 
-	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="style.css?v=2" />
 	<link rel="stylesheet" type="text/css" media="all" href="responsive.css" />
 	<link rel="stylesheet" href="fonts/font-awesome.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -1023,19 +1023,19 @@
 			<div id="more-block-inner" class="container-12 clearfix">
 				<h2 class="huge">More</h2>
 				<p class="tagline" style="margin-bottom: 40px;"><span><i class="fa fa-plus"></i>Other Areas To Research</span></p>
+				
+				<div class="grid-12">
+				
+					<ul class="alx-tabs-nav group tab-count-3">
+						<li class="alx-tab tab-not-included"><a href="#tab-including" title="Including"><span><i class="fa fa-arrow-right"></i> Including</span></a></li>
+						<li class="alx-tab tab-individuals"><a href="#tab-individuals" title="Comments"><span><i class="fa fa-group"></i> Individuals</span></a></li>
+						<li class="alx-tab tab-comments"><a href="#tab-comments" title="Comments"><span><i class="fa fa-comments"></i> Comments</span></a></li>					
+					</ul>
 					
-				<ul class="alx-tabs-nav group tab-count-3 grid-12">
-					<li class="alx-tab tab-not-included"><a href="#tab-including" title="Including"><span><i class="fa fa-arrow-right"></i> Including</span></a></li>
-					<li class="alx-tab tab-individuals"><a href="#tab-individuals" title="Comments"><span><i class="fa fa-group"></i> Individuals</span></a></li>
-					<li class="alx-tab tab-comments"><a href="#tab-comments" title="Comments"><span><i class="fa fa-comments"></i> Comments</span></a></li>					
-				</ul>
-				
-				<div class="alx-tabs-container">
-				
-					<ul id="tab-including" class="alx-tab group">
-						
-						<div class="grid-12">
-						
+					<ul class="alx-tabs-container">
+					
+						<li id="tab-including" class="alx-tab group">
+								
 							<!--row1-->
 							<a class="entry one-fifth" rel="prettyPhoto" href="http://www.youtube.com/watch?v=8mAdrSvOgwI">
 								<span class="entry-image"><img src="img/temp.gif" data-original="img/thumbs/more/crop-circles.jpg" width="166" height="94" alt="Crop Circles" /><span class="play fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-play fa-stack-1x"></i></span></span>
@@ -1060,15 +1060,11 @@
 								<span class="entry-image"><img src="img/temp.gif" data-original="img/thumbs/more/ufos.jpg" width="166" height="94" alt="UFO Images" /></span>
 								<span class="entry-heading">UFO Images</span>
 							</div>
-							
-						</div>
 
-					</ul><!--/.alx-tab-->
-					
-					<ul id="tab-individuals" class="alx-tab group">
+						</li><!--/.alx-tab-->
 						
-						<div class="grid-12">
-									
+						<li id="tab-individuals" class="alx-tab group">
+							
 							<a class="entry one-third" rel="prettyPhoto" href="http://www.youtube.com/watch?v=RGyFWyNuF3s">
 								<span class="entry-image"><img src="img/thumbs/people/paul-hellyer.jpg" width="80" height="60" alt="Paul Hellyer" /><span class="play fa-stack"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-play fa-stack-1x"></i></span></span>
 								<span class="entry-heading">Paul Hellyer</span>
@@ -1112,14 +1108,11 @@
 								<span class="entry-icon">&rarr;</span>
 							</a>
 							<div class="clear"></div>
-							
-						</div>
 
-					</ul><!--/.alx-tab-->
+						</li><!--/.alx-tab-->
 
-					<ul id="tab-comments" class="alx-tab group">
-						
-						<div class="grid-12">
+						<li id="tab-comments" class="alx-tab group">
+
 							<div id="disqus_thread"></div>
 							<script>
 							/**
@@ -1139,10 +1132,11 @@
 							})();
 							</script>
 							<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-						</div>
-						
-					</ul><!--/.alx-tab-->
 
+						</li><!--/.alx-tab-->
+
+					</ul><!--/.alx-tabs-container-->
+				
 				</div>
 			
 			</div><!--end more-inner-->

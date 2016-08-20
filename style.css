@@ -437,7 +437,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #more-block .coming-soon span { display: block; color: #ccc; font-size: 80px; }
 
 /* tabs-nav */
-.alx-tabs-nav { float: left; text-align: center; margin-bottom: 30px; border-top: 1px solid #ddd; }
+.alx-tabs-nav { float: left; width: 100%; text-align: center; margin-bottom: 30px; border-top: 1px solid #ddd; }
 .alx-tabs-nav.tab-count-1 li { width: 100%; }
 .alx-tabs-nav.tab-count-2 li { width: 50%; }
 .alx-tabs-nav.tab-count-3 li { width: 33.333%; }
@@ -452,6 +452,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 
 /* tabs */
 .alx-tabs-container { float: left; width: 100%; }
+.alx-tabs-container li { list-style: none; float: left; width: 100%; }
 
 
 /* ------------------------------------------------------------------------- *
