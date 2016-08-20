@@ -41,7 +41,8 @@ jQuery(document).ready(function($) {
 /*---------------------------------------------------------------------------*
  * prettyPhoto
 /*---------------------------------------------------------------------------*/	
-	$("a[rel^='prettyPhoto']").prettyPhoto({
+	$("a[data-gal^='prettyPhoto'").prettyPhoto({
+		hook: 'data-gal',
 		default_width: 640,
 		default_height: 390
 	});
