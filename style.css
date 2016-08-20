@@ -234,7 +234,9 @@ h4.divider { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: 40
 .entry { background: #f1f1f1; width: 606px; position: relative; border: 1px solid #eee; border-bottom-color: #e2e2e2; margin-bottom: 6px; padding: 6px; display: inline; float: left; text-shadow: 0 1px 0 #fff; 
 -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 .new { background: url(img/new.png) no-repeat 0 0; display: block; width: 44px; height: 44px; margin: 0; position: absolute; left: 0; top: 0; } 
-.entry  img { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.entry img { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.entry.disabled { opacity: 0.5; }
+.entry.disabled:hover { opacity: 1; border-color: #ddd; }
 .entry.blue { background-color: #d8eaf2; border: 1px solid #cbe3ee; border-bottom-color: #97c7dd; }
 .entry.alt, .entry.last { margin-right: 0!important; }
 .entry:hover { color: #000; border-color: #000; }
@@ -432,8 +434,6 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #more-block .tagline span { background: #eee; }
 
 #more-block .entry  { background: #fff; }
-#more-block .entry.disabled { opacity: 0.5; }
-#more-block .entry.disabled:hover { opacity: 1; border-color: #ddd; }
 
 #more-block .coming-soon { text-align: center; color: #999; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 42px; margin: 100px 0; }
 #more-block .coming-soon span { display: block; color: #ccc; font-size: 80px; }
