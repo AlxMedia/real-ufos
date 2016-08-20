@@ -448,9 +448,10 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 .alx-tabs-nav li a { font-size: 22px; display: block; border-bottom: 3px solid #ddd; color: #999; padding: 12px 0; border-radius: 4px 4px 0 0; }
 .alx-tabs-nav li a:hover { border-bottom-color: #ccc; color: #222; }
 .alx-tabs-nav li.active a { border-bottom-color: #4183c4; color: #4183c4; }
-.alx-tabs-nav li a span { font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; margin-left: 2px; }
+.alx-tabs-nav li a { font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; }
 .alx-tabs-nav li a strong { background: #ddd; padding: 0 4px; margin-left: 4px; border-radius: 3px; }
 .alx-tabs-nav li a i { margin-right: 6px; }
+.alx-tabs-nav li.tab-comments a:before { content: "\f086"; font-family: FontAwesome; margin-right: 6px; }
 
 /* tabs */
 .alx-tabs-container { float: left; width: 100%; }
