@@ -69,5 +69,6 @@
 	.entry.one-fifth span.entry-heading { width: 277px; }
 	.entry.one-fifth span.entry-tagline { width: 277px; }
 	
-	.alx-tabs-nav.tab-count-4 li { width: 50%; }
+	.alx-tabs-nav.tab-count-3 li { width: 50%; }
+	.alx-tabs-nav.tab-count-3 li.tab-comments { width: 100%; }
 }
