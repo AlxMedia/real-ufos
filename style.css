@@ -250,7 +250,7 @@ h4.divider { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: 40
 .entry span.entry-image .fa { font-size: 24px; margin-top: 6px;text-align: center; }
 .entry span.entry-heading { display: block; font-weight: bold; margin-top: 4px; padding-right: 10px; }
 .entry span.entry-heading.lg { font-size: 16px; line-height: 18px; }
-.entry span.entry-heading strong { color: #eb4823; font-weight: normal; margin-top: 3px; font-size: 11px; border: 1px solid #eb4823; padding: 2px 4px; border-radius: 4px; display: inline-block; }
+.entry span.entry-heading strong.nsfw { color: #eb4823; font-weight: normal; margin-top: 3px; font-size: 11px; border: 1px solid #eb4823; padding: 2px 4px; border-radius: 4px; display: inline-block; }
 .entry span.entry-tagline { display: block; font-size: 12px; color: #777; margin-bottom: 4px; padding-right: 10px; }
 .entry span.entry-icon { line-height: 40px; color: #aaa; position: absolute; top: 6px; right: 0; }
 .entry span.play { opacity: 0; width: 30px; height: 30px; margin-right: 0; display: block; position: absolute; left: 21px; top: 12px;
