@@ -483,7 +483,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 .share-footer { margin: 30px 0 20px 0; padding-bottom: 25px; border-bottom: 1px solid #333; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
 
-#socialmedia-footer { background: #eee; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: -58px auto 0; -webkit-border-radius: 3px; border-radius: 3px; }
+#socialmedia-footer { background: #eee; border-top: 1px solid #ddd; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: -56px auto 0; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
 #socialmedia-footer:before { margin-right: -10px; bottom: -9px; right: 50%; border: solid; border-color: #eee transparent; border-width: 10px 10px 0 10px; content: ""; display: block; position: absolute; z-index: 1; }
 #socialmedia-footer iframe { float: left; background: transparent; }
 #socialmedia-footer .twitter-share-button { width: 80px!important; }
