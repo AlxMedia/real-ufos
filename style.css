@@ -435,7 +435,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
  *  More
 /* ------------------------------------------------------------------------- */
 #more-block { z-index: 5; background: #eee; }
-#more-block-inner { padding: 60px 0 120px; }
+#more-block-inner { padding: 60px 0; }
 
 #more-block .tagline { background: #ccc; } 
 #more-block .tagline span { background: #eee; }
