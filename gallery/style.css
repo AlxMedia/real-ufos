@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------------------- *
+ * Reset
+/* ------------------------------------------------------------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup,
+var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, 
+menu, nav, section, summary, time, mark, audio, video {margin:0;padding:0;border:0;
+font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse;border-spacing: 0;}
+
+
+/* ------------------------------------------------------------------------- *
+ *  Core Styles
+/* ------------------------------------------------------------------------- */
+body { background: #222; font-family: Arial; }
+a { color: #4183c4; text-decoration: none; outline: 0;
+  -webkit-transition-property: background color; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: background color; -moz-transition-duration: 0.2s; -moz-transition-timing-function: ease-out;
+  -o-transition-property: background color; -o-transition-duration: 0.2s; -o-transition-timing-function: ease-out; 
+  transition-property: background color; transition-duration: 0.2s; transition-timing-function: ease-out; }
+#wrapper { max-width: 700px; margin: 10px auto;  }
+header { color: #666; padding: 10px 30px 15px; }
+header strong { font-size: 24px; color: #fff; font-weight: bold; }
+header a { color: #999; }
+header a:hover { color: #fff; }
+img { float: left; width: 100%; box-sizing: border-box; padding: 5px; position: relative; }
+span { position: relative; float: left; width: 100%; }
+span:after { z-index: 1; background: rgba(0,0,0,0.6); font-size: 14px; color: #fff; content: attr(title); display: block; bottom: 5px; left: 5px; padding: 10px 10px; position: absolute;  }
