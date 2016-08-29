@@ -57,6 +57,21 @@ jQuery(document).ready(function($) {
         $('#ufo').css({'top': x,'left': y}); 
   });
 
+
+/*---------------------------------------------------------------------------*
+ * Fade UFO In-Out
+/*---------------------------------------------------------------------------*/	  
+	$(function () {
+		var $element = $('#ufo');
+		setInterval(function () {
+			$element.fadeIn(1000, function () {
+				$element.fadeOut(1500, function () {
+					$element.fadeIn(1500)
+				});
+			});
+		}, 5000);
+	});
+
 	
 /*---------------------------------------------------------------------------*
  * Scrollspy Animated
