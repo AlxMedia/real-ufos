@@ -29,7 +29,7 @@
 	#subheader .huge { font-size: 70px; line-height: 70px; height: 160px; }
 	#subheader .tagline { background: none; }
 	#subheader .tagline span { background: none; }
-	#ufo { display: none; }
+	#ufo { display: none!important; visibility: hidden!important; }
 	#content { margin-top: 0; }
 	
 	.container-12 { width: 320px; }
