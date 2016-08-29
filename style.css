@@ -220,7 +220,6 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
 -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.15);
 box-shadow: 0 1px 0 rgba(0,0,0,0.15); }
 #subheader .tagline span { background: #060d17; color: #738da2; font-size: 26px; text-shadow: 0 1px 0 rgba(0,0,0,0.4); padding: 0 10px; }
-#ufo { display: none; background: url(img/ufo.png) no-repeat 0 0; height: 100px; width: 100px; position: absolute; top: 60px; left: -100px; z-index: 0;  }
 
 
 /* ------------------------------------------------------------------------- *

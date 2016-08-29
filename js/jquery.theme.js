@@ -47,31 +47,6 @@ jQuery(document).ready(function($) {
 		default_height: 390
 	});
 
-
-/*---------------------------------------------------------------------------*
- * Mouse-moving UFO
-/*---------------------------------------------------------------------------*/		
-	$('html').mousemove(function(e){
-        var x = e.pageX - this.offsetLeft;
-        var y = e.pageY - this.offsetTop;
-        $('#ufo').css({'top': x,'left': y}); 
-  });
-
-
-/*---------------------------------------------------------------------------*
- * Fade UFO In-Out
-/*---------------------------------------------------------------------------*/	  
-	$(function () {
-		var $element = $('#ufo');
-		setInterval(function () {
-			$element.fadeIn(1000, function () {
-				$element.fadeOut(1500, function () {
-					$element.fadeIn(1500)
-				});
-			});
-		}, 5000);
-	});
-
 	
 /*---------------------------------------------------------------------------*
  * Scrollspy Animated
