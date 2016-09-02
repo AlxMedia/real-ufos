@@ -47,6 +47,22 @@ jQuery(document).ready(function($) {
 		default_height: 390
 	});
 
+
+/*---------------------------------------------------------------------------*
+ * Parallax
+/*---------------------------------------------------------------------------*/	
+	if ($(window).width() >= 1024){
+		
+		$(window).scroll(function(e){
+			parallax();
+		});
+		function parallax(){
+			var scrolled = $(window).scrollTop();
+			$('#subheader').css('top',-(scrolled*0.2)+'px');
+			$('#earth').css('top',(scrolled*0.4)+'px');
+		}
+		
+	}
 	
 /*---------------------------------------------------------------------------*
  * Scrollspy Animated

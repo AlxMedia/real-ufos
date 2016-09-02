@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1023px) {
+	#earth { display: none; }
+	#subheader,
+	#earth { top: 0!important; }
+}
+
 /* ------------------------------------------------------------------------- *
  *  Mobile (Low Res) : 479px > 0 (320px)
 /* ------------------------------------------------------------------------- */
@@ -25,7 +31,7 @@
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.6); 
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6); }
 	#socialmedia #stumbleupon { right: 15px; }
-	#subheader { padding-top: 30px; top: 0; }
+	#subheader { padding-top: 30px; margin-top: 0; }
 	#subheader .huge { font-size: 70px; line-height: 70px; height: 160px; }
 	#subheader .tagline { background: none; }
 	#subheader .tagline span { background: none; }
