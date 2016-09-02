@@ -220,7 +220,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
 -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.15);
 box-shadow: 0 1px 0 rgba(0,0,0,0.15); }
 #subheader .tagline span { background: #060d17; color: #738da2; font-size: 26px; text-shadow: 0 1px 0 rgba(0,0,0,0.4); padding: 0 10px; }
-#earth { background: url(img/earth.png) no-repeat bottom center; margin-top: 59px; position: absolute; height: 480px; top: 0; right: 0; left: 0; z-index: 0;  }
+#earth { background: url(img/earth.png) no-repeat bottom center; margin-top: 59px; position: absolute; height: 480px; top: 0; right: 0; left: 0; z-index: 0; pointer-events: none; }
 
 
 /* ------------------------------------------------------------------------- *
