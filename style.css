@@ -318,12 +318,12 @@ transition-property: background color; transition-duration: 0.2s; transition-tim
 -webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.04), 0 0 6px rgba(0,0,0,0.5);
 box-shadow: inset 1px 1px 0 rgba(255,255,255,0.04), 0 0 6px rgba(0,0,0,0.5);
 text-shadow: 0 1px 0 rgba(0,0,0,0.7); }
+#quotes-block blockquote:after { top: 12px; right: -10px; border: solid; border-color: transparent #161616; border-width: 12px 0 12px 12px; content: ""; display: block; position: absolute; z-index: 1; }
 #quotes-block blockquote p { color: #999; font-size: 12px; margin: 5px 0; line-height: 1.5em; }
 #quotes-block blockquote p.author { color: #3a6187; }
 #quotes-block blockquote p.source { color: #444; font-style: italic; font-size: 11px; padding-top: 6px; border-top: 1px dashed #222; margin-bottom: 0; }
 #quotes-block blockquote p.source a { color: #666; }
 #quotes-block blockquote p.source a:hover { text-decoration: underline; }
-#quotes-block blockquote span.pike { background: url(img/pike.png) no-repeat 0 0; display: block; height: 20px; width: 10px; position: absolute; top: 15px; right: -10px; }
 #quotes-block blockquote .thumb { background-color: #111; height: 80px; width: 80px; overflow: hidden; position: absolute; right: -100px; top: 0;
 -moz-border-radius: 3px; -webkit-border-radius: 3px;  border-radius: 3px; 
 -moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
