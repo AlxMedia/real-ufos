@@ -177,7 +177,7 @@ box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); }
 #logo a:hover { color: #333; }
 #logo a .fa { color: #4183c4; font-size: 28px; vertical-align: 5%; margin-right: 6px; }
 
-ul.nav { float: left; height: 58px; padding: 0; border-left: 1px solid #e0e0e0; padding-left: 20px;
+ul.nav { float: left; height: 58px; padding: 0; border-left: 1px solid #e0e0e0; padding-left: 16px;
 -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
 box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
@@ -198,15 +198,14 @@ ul.nav li.active a i { background: #d5d5d5; color: #777; border-color: #ccc; bor
 -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.6);
 box-shadow: 0 1px 0 rgba(255,255,255,0.6); }
 
-#socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 19px 0; width: 280px; border-left: 1px solid #e0e0e0; padding-left: 20px;
--moz-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
--webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6);
-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6); }
+#socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 20px 15px; width: 270px; border-right: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; padding-left: 20px;
+-webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6);
+box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6); }
 #socialmedia iframe { float: left; background: transparent; }
 #socialmedia .twitter-share-button { width: 80px!important; }
 #socialmedia .fb-like { width: 100px; height: 20px; position: relative; top: 0; }
-#socialmedia #___plusone_0 { position: absolute; top: 19px; right: 10px; float: right; }
-#socialmedia #stumbleupon { position: absolute; top: 20px; right: 0; float: right; }
+#socialmedia #___plusone_0 { position: absolute; top: 20px; right: 15px; float: right; }
+#socialmedia #stumbleupon { position: absolute; top: 20px; right: 15px; float: right; }
 
 
 /* ------------------------------------------------------------------------- *
