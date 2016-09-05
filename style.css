@@ -210,7 +210,7 @@ animation-iteration-count: infinite; }
 @-moz-keyframes pulse { 0% { -moz-transform: scale(0); opacity: 0.0; } 25% { -moz-transform: scale(0); opacity: 0.1; } 50% { -moz-transform: scale(0.1); opacity: 0.3; } 75% { -moz-transform: scale(0.5); opacity: 0.5; } 100% { -moz-transform: scale(1); opacity: 0.0; } }
 @-webkit-keyframes "pulse" { 0% { -webkit-transform: scale(0); opacity: 0.0; } 25% { -webkit-transform: scale(0); opacity: 0.1; } 50% { -webkit-transform: scale(0.1); opacity: 0.3; } 75% { -webkit-transform: scale(0.5); opacity: 0.5; } 100% { -webkit-transform: scale(1); opacity: 0.0; } }
 .expanding-circle.alt { top: -20px; left: 81px; z-index: -1; }
-.expanding-circle.alt .dot { border: 10px solid #bdcbe8; }
+.expanding-circle.alt .dot { border: 10px solid #b6c5e4; }
 .ie .expanding-circle { display: none; }
 
 #socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 20px 15px; width: 270px; border-right: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; padding-left: 20px;
