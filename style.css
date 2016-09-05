@@ -198,6 +198,21 @@ ul.nav li.active a i { background: #d5d5d5; color: #777; border-color: #ccc; bor
 -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.6);
 box-shadow: 0 1px 0 rgba(255,255,255,0.6); }
 
+.expanding-circle { background: #45453f; position: relative; top: 19px; left: 4px; z-index: 1; pointer-events: none; }
+.expanding-circle .pulse { background-color: transparent; border: 5px solid transparent; width: 10px; height: 10px; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; z-index: 10; position: absolute; }
+.expanding-circle .dot { border: 10px solid #ccdeef; background: transparent; -webkit-border-radius: 60px; -moz-border-radius: 60px; border-radius: 60px; height: 50px; width: 50px;  position: absolute; top: -25px; left: -25px; z-index: 1; opacity: 0;
+-webkit-animation: pulse 3s ease-out;
+-moz-animation: pulse 3s ease-out;
+animation: pulse 3s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite; }
+@-moz-keyframes pulse { 0% { -moz-transform: scale(0); opacity: 0.0; } 25% { -moz-transform: scale(0); opacity: 0.1; } 50% { -moz-transform: scale(0.1); opacity: 0.3; } 75% { -moz-transform: scale(0.5); opacity: 0.5; } 100% { -moz-transform: scale(1); opacity: 0.0; } }
+@-webkit-keyframes "pulse" { 0% { -webkit-transform: scale(0); opacity: 0.0; } 25% { -webkit-transform: scale(0); opacity: 0.1; } 50% { -webkit-transform: scale(0.1); opacity: 0.3; } 75% { -webkit-transform: scale(0.5); opacity: 0.5; } 100% { -webkit-transform: scale(1); opacity: 0.0; } }
+.expanding-circle.alt { top: -20px; left: 81px; z-index: -1; }
+.expanding-circle.alt .dot { border: 10px solid #bdcbe8; }
+.ie .expanding-circle { display: none; }
+
 #socialmedia { float: left; position: absolute; top: 0; right: 10px; height: 20px; padding: 20px 15px; width: 270px; border-right: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; padding-left: 20px;
 -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6);
 box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6); }
@@ -603,6 +618,7 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 	#header-wrap { float: left; width: 100%; padding-top: 53px; }
 	#logo { padding: 20px 0; margin: 0; float: none; text-align: center; font-size: 42px; }
 	#logo a .fa { display: none; }
+	.expanding-circle { display: none; }
 	ul.nav { background: #eaeaea url(img/grad-silver.png) repeat-x top; position: fixed; top: 0; left: 0; right: 0; z-index: 99; padding: 0; height: auto; width: 100%; border-left: none; border-bottom: 1px solid #ddd;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 1px 0 #f5f5f5; 
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 1px 0 #f5f5f5;  }
