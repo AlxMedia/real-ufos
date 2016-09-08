@@ -346,55 +346,49 @@ box-shadow: 0 0 6px rgba(0,0,0,0.5); }
 
 /* quotes: thumbnails */
 
-.thumb { background-image: url(img/thumbs/quotes/sprite-quote.jpg); background-repeat: no-repeat; background-position: 80px 0; }
+.thumb { background-image: url(img/thumbs/quotes/sprite.jpg); background-size: 100%; background-repeat: no-repeat; background-position: 80px 0; }
 /* astronauts */
 .thumb.gordon-cooper { background-position: 0 0; }
 .thumb.edgar-mitchell { background-position: 0 -80px; }
-.thumb.scott-carpenter { background-position: 0 -160px; }
-.thumb.eugene-cernan { background-position: 0 -240px; }
-.thumb.cady-coleman { background-position: 0 -320px; }
-.thumb.storey-musgrave { background-position: 0 -400px; }
-.thumb.james-irwin { background-position: 0 -480px; }
-.thumb.james-mcdivitt { background-position: 0 -560px; }
-.thumb.donald-slayton { background-position: 0 -640px; }
-.thumb.charles-camarda { background-position: 0 -720px; }
-.thumb.victor-afanasyev { background-position: 0 -800px; }
-.thumb.brian-oleary { background-position: 0 -880px; }
+.thumb.eugene-cernan { background-position: 0 -160px; }
+.thumb.donald-slayton { background-position: 0 -240px; }
+.thumb.storey-musgrave { background-position: 0 -320px; }
+.thumb.james-irwin { background-position: 0 -400px; }
+.thumb.charles-camarda { background-position: 0 -480px; }
+.thumb.victor-afanasyev { background-position: 0 -560px; }
+.thumb.brian-oleary { background-position: 0 -640px; }
 /* presidents */
-.thumb.mikhail-gorbachev { background-position: -80px 0; }
-.thumb.harry-truman { background-position: -80px -80px; }
-.thumb.richard-nixon { background-position: -80px -160px; }
-.thumb.gerald-ford { background-position: -80px -240px; }
-.thumb.jimmy-carter { background-position: -80px -320px; }
-.thumb.ronald-reagan { background-position: -80px -400px; }
-.thumb.john-kennedy { background-position: -80px -480px; }
-
-.thumb.hill-norton { background-position: -80px -560px; }
-.thumb.donald-keyhoe { background-position: -80px -640px; }
+.thumb.mikhail-gorbachev { background-position: 0 -720px; }
+.thumb.harry-truman { background-position: 0 -800px; }
+.thumb.john-kennedy { background-position: 0 -880px; }
+.thumb.gerald-ford { background-position: 0 -960px; }
+.thumb.jimmy-carter { background-position: 0 -1040px; }
+.thumb.ronald-reagan { background-position: 0 -1120px; }
+/* more */
+.thumb.roscoe-hillenkoetter { background-position: 0 -1200px; }
+.thumb.allen-hynek { background-position: 0 -1280px; }
+.thumb.philip-corso { background-position: 0 -1360px; }
+.thumb.edgar-hoover { background-position: 0 -1440px; }
+.thumb.ben-rich { background-position: 0 -1520px; }
+.thumb.hill-norton { background-position: 0 -1600px; }
+.thumb.hugh-dowding { background-position: 0 -1680px; }
+.thumb.donald-keyhoe { background-position: 0 -1760px; }
+.thumb.eddie-rickenbacker { background-position: 0 -1840px; }
+.thumb.albert-chop { background-position: 0 -1920px; }
+.thumb.delmar-fahrney { background-position: 0 -2000px; }
+.thumb.douglas-macarthur { background-position: 0 -2080px; }
+.thumb.nathan-twining { background-position: 0 -2160px; }
+.thumb.barry-goldwater { background-position: 0 -2240px; }
+.thumb.nick-pope { background-position: 0 -2320px; }
 /* others */
-.thumb.eddie-rickenbacker { background-position: -160px 0; }
-.thumb.hugh-dowding { background-position: -160px -80px; }
-.thumb.roscoe-hillenkoetter { background-position: -160px -160px; }
-.thumb.albert-chop { background-position: -160px -240px; }
-.thumb.philip-corso { background-position: -160px -320px; }
-.thumb.delmar-fahrney { background-position: -160px -400px; }
-.thumb.nathan-twining { background-position: -160px -480px; }
-.thumb.barry-goldwater { background-position: -160px -560px; }
-.thumb.ben-rich { background-position: -160px -640px; }
-.thumb.allen-hynek { background-position: -160px -720px; }
-.thumb.edgar-hoover { background-position: -160px -800px; }
-.thumb.douglas-macarthur { background-position: -160px -880px; }
-.thumb.hermann-oberth { background-position: -160px -960px; }
-.thumb.nick-pope { background-position: -160px -1040px; }
-
-.thumb.stephen-hawking { background-position: -80px -720px; }
-.thumb.michio-kaku { background-position: -80px -800px; }
-.thumb.harold-puthoff { background-position: -80px -880px; }
-.thumb.maurice-biot { background-position: -80px -960px; }
-.thumb.stanton-friedman { background-position: -80px -1040px; }
-
-.thumb.walther-riedel { background-position: 0 -960px; }
-.thumb.james-mcdonald { background-position: 0 -1040px; }
+.thumb.hermann-oberth { background-position: 0 -2400px; }
+.thumb.maurice-biot { background-position: 0 -2480px; }
+.thumb.harold-puthoff { background-position: 0 -2560px; }
+.thumb.james-mcdonald { background-position: 0 -2640px; }
+.thumb.walther-riedel { background-position: 0 -2720px; }
+.thumb.stanton-friedman { background-position: 0 -2800px; }
+.thumb.stephen-hawking { background-position: 0 -2880px; }
+.thumb.michio-kaku { background-position: 0 -2960px; }
 
 
 /* ------------------------------------------------------------------------- *
