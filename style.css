@@ -338,7 +338,7 @@ text-shadow: 0 1px 0 rgba(0,0,0,0.7); }
 #quotes-block blockquote p.source { color: #444; font-style: italic; font-size: 11px; padding-top: 6px; border-top: 1px dashed #222; margin-bottom: 0; }
 #quotes-block blockquote p.source a { color: #666; }
 #quotes-block blockquote p.source a:hover { text-decoration: underline; }
-#quotes-block blockquote .thumb { background-color: #111; height: 80px; width: 80px; overflow: hidden; position: absolute; right: -100px; top: 0;
+#quotes-block blockquote .thumb { background-color: #111; height: 80px; width: 80px; position: absolute; right: -100px; top: 0;
 -moz-border-radius: 3px; -webkit-border-radius: 3px;  border-radius: 3px; 
 -moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
@@ -660,8 +660,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 	.entry.one-third { width: 285px; }
 	
 	#quotes-block .grid-6.omega { margin-left: 0; margin-right: 10px; }
-	#quotes-block blockquote { width: 200px; margin-right: 70px; }
-	#quotes-block blockquote .thumb { z-index: -1; right: -70px; }
+	#quotes-block blockquote { position: relative; width: 270px; margin-right: 0; margin-bottom: 100px; }
+	#quotes-block blockquote .thumb { z-index: -1; top: auto; bottom: -90px; right: 0; }
+	#quotes-block blockquote:after { top: auto; bottom: -10px; right: 138px; border: solid; border-color: #161616 transparent; border-width: 12px 12px 0 12px; }
+	#quotes-block blockquote .thumb:after { position: absolute; content:""; bottom: 40px; right: 80px; border-left: 4px solid #161616; border-bottom: 4px solid #161616; height: 40px; width: 68px; -webkit-border-radius: 0 0 0 10px; border-radius: 0 0 0 10px; }
 	
 	#cases-block .case-wrap { width: 300px; }
 	#cases-block .entry.case { width: 286px; }
