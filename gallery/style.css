@@ -34,3 +34,6 @@ header a:hover { color: #fff; }
 img { float: left; width: 100%; box-sizing: border-box; padding: 5px; position: relative; }
 span { position: relative; float: left; width: 100%; }
 span:after { z-index: 1; background: rgba(0,0,0,0.6); font-size: 14px; color: #fff; content: attr(title); display: block; bottom: 5px; left: 5px; padding: 10px 10px; position: absolute;  }
+.sticky { background: #444; z-index: 999; padding: 10px 15px; font-weight: bold; font-size: 12px; display: block; position: fixed; bottom: 0; right: 60px; }
+.sticky i { color: #fff; }
+.sticky-top { background: #4183c4; color: #fff; z-index: 999; padding: 10px 0; width: 60px; text-align: center; font-weight: bold; font-size: 12px; display: block; position: fixed; bottom: 0; right: 0; }
