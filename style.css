@@ -250,6 +250,7 @@ h4.divider { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: 40
 .entry { background: #f1f1f1; width: 606px; position: relative; border: 1px solid #eee; border-bottom-color: #e2e2e2; margin-bottom: 6px; padding: 6px; display: inline; float: left; text-shadow: 0 1px 0 #fff; 
 -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 .new { background: url(img/new.png) no-repeat 0 0; background-size: 44px; display: block; width: 44px; height: 44px; margin: 0; position: absolute; left: 0; top: 0; } 
+.popular { background: url(img/popular.png) no-repeat 0 0; background-size: 44px; display: block; width: 44px; height: 44px; margin: 0; position: absolute; left: 0; top: 0; } 
 .entry img { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
 .entry.disabled { opacity: 0.5; }
 .entry.disabled:hover { opacity: 1; border-color: #ddd; }
