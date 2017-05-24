@@ -26,7 +26,7 @@ a { color: #4183c4; text-decoration: none; outline: 0;
   -moz-transition-property: background color; -moz-transition-duration: 0.2s; -moz-transition-timing-function: ease-out;
   -o-transition-property: background color; -o-transition-duration: 0.2s; -o-transition-timing-function: ease-out; 
   transition-property: background color; transition-duration: 0.2s; transition-timing-function: ease-out; }
-#wrapper { max-width: 700px; margin: 10px auto;  }
+#wrapper { max-width: 700px; margin: 10px auto; }
 header { color: #666; padding: 10px 30px 15px; float: left; width: 100%; box-sizing: border-box; }
 header strong { font-size: 24px; color: #fff; font-weight: bold; }
 header a { color: #999; }
@@ -41,8 +41,3 @@ span:after { z-index: 1; background: rgba(0,0,0,0.6); font-size: 14px; color: #f
 .sticky { background: #444; z-index: 999; padding: 10px 15px; font-weight: bold; font-size: 12px; display: block; position: fixed; bottom: 0; right: 60px; }
 .sticky i { color: #fff; }
 .sticky-top { background: #4183c4; color: #fff; z-index: 999; padding: 10px 0; width: 60px; text-align: center; font-weight: bold; font-size: 12px; display: block; position: fixed; bottom: 0; right: 0; }
-
-#wrap-fake { background: #444; float: left; width: 100%; margin-top: 100px; margin-bottom: 70px; }
-header#fake { padding-top: 20px; }
-#wrap-fake img { opacity: 0.3; }
-#wrap-fake img:hover { opacity: 1; }
