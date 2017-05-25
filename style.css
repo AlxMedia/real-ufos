@@ -231,7 +231,7 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6); 
  *  Subheader
 /* ------------------------------------------------------------------------- */
 #header-spacer { height: 59px; width: 100%; }
-#subheader { background: #000 url(img/header.jpg) no-repeat bottom center; height: 400px; margin-top: 59px; padding-top: 80px; position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: -1; overflow: hidden; }
+#subheader { background: #000 url(img/header.jpg) no-repeat bottom center; height: 480px; margin-top: 60px; position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: -1; overflow: hidden; }
 #subheader .huge { color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.4); font-size: 110px; height: 130px; }
 #subheader .tagline { background: url(img/line.png) repeat;
 -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.15);
@@ -239,6 +239,11 @@ box-shadow: inset 1px 0 0 rgba(255,255,255,0.6), 1px 0 0 rgba(255,255,255,0.6); 
 box-shadow: 0 1px 0 rgba(0,0,0,0.15); }
 #subheader .tagline span { background: #060d17; color: #738da2; font-size: 26px; text-shadow: 0 1px 0 rgba(0,0,0,0.4); padding: 0 10px; }
 #earth { background: url(img/earth.png) no-repeat bottom center; margin-top: 59px; position: absolute; height: 480px; top: 0; right: 0; left: 0; z-index: 0; pointer-events: none; }
+
+#subheader .container-12 { margin-top: 110px; z-index: 2; position: relative; }
+#pixie-container { margin-top: -260px; overflow: hidden; position: relative; }
+.ie #pixie-container { display: none; }
+#pixie { z-index: 1; width: 100%; }
 
 
 /* ------------------------------------------------------------------------- *
@@ -603,6 +608,7 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 1023px) {
 	#earth { display: none; }
+	#pixie-container { display: none; }
 	#subheader,
 	#earth { top: 0!important; }
 }
@@ -638,10 +644,11 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6); }
 	#socialmedia #___plusone_0 { /* right: 20px; */ }
 	#socialmedia .stumbleupon { right: 15px; }
-	#subheader { padding-top: 30px; margin-top: 0; }
+	#subheader { height: 400px; padding-top: 30px; margin-top: 0; }
 	#subheader .huge { font-size: 70px; line-height: 70px; height: 160px; }
 	#subheader .tagline { background: none; }
 	#subheader .tagline span { background: none; }
+	#subheader .container-12 { margin-top: 0; }
 	#content { margin-top: 0; }
 	
 	.container-12 { width: 320px; }
