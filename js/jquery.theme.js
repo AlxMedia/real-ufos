@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
 // Drawing dimensions
 var WIDTH = window.innerWidth,
     HEIGHT = window.innerHeight,
-    MAX_PARTICLES = 100,
+    MAX_PARTICLES = 150,
     DRAW_INTERVAL = 60,
     container = document.querySelector('#pixie-container'),
     canvas = document.querySelector('#pixie'),
