@@ -157,9 +157,9 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 #quotes .arc { background-position: center -100px; }
 #cases .arc { background-position: center -300px; }
 #sightings .arc { background-position: center -400px; }
-#more .arc { background-position: center -200px; }
-#subfooter .arc { background-position: center -500px; }
-#footer .arc { background: none; }
+#more .arc { background-position: center -500px; }
+#subfooter .arc { background-position: center -200px; }
+#footer .arc { background-position: center -200px; }
 
 
 /* ------------------------------------------------------------------------- *
@@ -495,15 +495,15 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
  *  Subfooter
 /* ------------------------------------------------------------------------- */
 #subfooter {  }
-#subfooter-block { z-index: 8; background: #222; }
+#subfooter-block { z-index: 8; background: #e2e2e2; }
 #subfooter-block-inner { padding: 0 0 40px; }
-#subfooter-block .huge { font-size: 60px; height: 70px; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3); }
-#subfooter-block .tagline { background: transparent; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
-#subfooter-block .tagline span { background: #222; color: #777; }
+#subfooter-block .huge { font-size: 60px; height: 70px; color: #222; }
+#subfooter-block .tagline { background: transparent; }
+#subfooter-block .tagline span { background: #e2e2e2; color: #999; }
 
-.share-footer {  margin: -3px 0 20px 0; }
+.share-footer {  margin: -4px 0 20px 0; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
-#socialmedia-footer { background: #eee; border-top: 1px solid #ddd; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: 0 auto 0; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
+#socialmedia-footer { background: #eee; border-bottom: 1px solid #d5d5d5; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: 0 auto 0; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,0.7); box-shadow: inset 0 -1px 0 rgba(255,255,255,0.7); }
 #socialmedia-footer:before { margin-right: -10px; bottom: -9px; right: 50%; border: solid; border-color: #eee transparent; border-width: 10px 10px 0 10px; content: ""; display: block; position: absolute; z-index: 1; }
 #socialmedia-footer iframe { float: left; background: transparent; }
 #socialmedia-footer .twitter-share-button { width: 80px!important; }
