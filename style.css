@@ -157,8 +157,8 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
 #quotes .arc { background-position: center -100px; }
 #cases .arc { background-position: center -300px; }
 #sightings .arc { background-position: center -400px; }
-#more .arc { background-position: center -500px; }
-#subfooter .arc { background-position: center -200px; }
+#more .arc { background-position: center -200px; }
+#subfooter .arc { background-position: center -500px; }
 #footer .arc { background: none; }
 
 
@@ -495,11 +495,11 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
  *  Subfooter
 /* ------------------------------------------------------------------------- */
 #subfooter {  }
-#subfooter-block { z-index: 8; background: #333; }
+#subfooter-block { z-index: 8; background: #222; }
 #subfooter-block-inner { padding: 0 0 40px; }
 #subfooter-block .huge { font-size: 60px; height: 70px; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3); }
 #subfooter-block .tagline { background: transparent; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
-#subfooter-block .tagline span { background: #333; color: #777; }
+#subfooter-block .tagline span { background: #222; color: #777; }
 
 .share-footer {  margin: -3px 0 20px 0; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
