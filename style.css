@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6{ color: #000; }
  *  Common
 /* ------------------------------------------------------------------------- */
 .fa { width: 1em; text-align: center; }
-.huge { margin: 30px 10px 0 10px; position: relative; color: #222; font-size: 90px; height: 100px; height: 100px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; text-shadow: 0 1px 0 #fff; }
+.huge { margin: 30px 10px 0 10px; position: relative; color: #222; font-size: 90px; height: 100px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; text-shadow: 0 1px 0 #fff; }
 
 .tagline { background: #ddd; height: 1px; margin: 10px; position: relative; text-align: center; }
 .tagline span { display: inline-block; background: #fff; color: #999; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; font-weight: 400; font-size: 22px; height: 21px; line-height: 21px; padding: 0 14px; position: relative; top: -10px; }
@@ -496,15 +496,15 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 /* ------------------------------------------------------------------------- */
 #subfooter {  }
 #subfooter-block { z-index: 8; background: #4183c4; }
-#subfooter-block-inner { padding: 60px 0 60px; }
-#subfooter-block .huge { color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3); }
-#subfooter-block .tagline { background: #7aa8d6; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+#subfooter-block-inner { padding: 0 0 40px; }
+#subfooter-block .huge { font-size: 60px; height: 70px; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3); }
+#subfooter-block .tagline { background: transparent; text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
 #subfooter-block .tagline span { background: #4183c4; color: #b2cbe4; }
 
-.share-footer {  margin: 50px 0 20px 0; }
+.share-footer {  margin: -3px 0 20px 0; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
-#socialmedia-footer { background: #eee; border-top: 1px solid #fff; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: 0 auto 0; -webkit-border-radius: 3px; border-radius: 3px; }
-#socialmedia-footer:before { margin-right: -10px; top: -9px; right: 50%; border: solid; border-color: #eee transparent; border-width: 0 10px 10px 10px; content: ""; display: block; position: absolute; z-index: 1; }
+#socialmedia-footer { background: #eee; border-top: 1px solid #ddd; position: relative; height: 20px; padding: 15px 15px; width: 270px; margin: 0 auto 0; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; }
+#socialmedia-footer:before { margin-right: -10px; bottom: -9px; right: 50%; border: solid; border-color: #eee transparent; border-width: 10px 10px 0 10px; content: ""; display: block; position: absolute; z-index: 1; }
 #socialmedia-footer iframe { float: left; background: transparent; }
 #socialmedia-footer .twitter-share-button { width: 80px!important; }
 #socialmedia-footer .fb-like { width: 100px; height: 20px; position: relative; top: 0; }
