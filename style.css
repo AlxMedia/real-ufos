@@ -497,9 +497,9 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #subfooter {  }
 #subfooter-block { z-index: 8; background: #fff; }
 #subfooter-block-inner { padding: 60px 0 60px; }
-#subfooter-block .huge { color: #ccc; text-shadow: none; }
-#subfooter-block .tagline { background: #ddd; }
-#subfooter-block .tagline span { color: #ccc; background: #fff; }
+#subfooter-block .huge {  }
+#subfooter-block .tagline { }
+#subfooter-block .tagline span {  }
 
 .share-footer {  margin: 50px 0 20px 0; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
