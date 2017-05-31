@@ -61,10 +61,10 @@ table {border-collapse:collapse;border-spacing: 0;}
 /* ------------------------------------------------------------------------- */
 body { background: #fff; font-size: 13px; color: #555; font-family: Arial, Helvetica, Verdana, sans-serif; }
 a { color: #4183c4; text-decoration:none; outline: 0;
-  -webkit-transition-property: background color; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease-out;
-  -moz-transition-property: background color; -moz-transition-duration: 0.2s; -moz-transition-timing-function: ease-out;
-  -o-transition-property: background color; -o-transition-duration: 0.2s; -o-transition-timing-function: ease-out; 
-  transition-property: background color; transition-duration: 0.2s; transition-timing-function: ease-out; }
+  -webkit-transition-property: background color; -webkit-transition-duration: 0.4s; -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: background color; -moz-transition-duration: 0.4s; -moz-transition-timing-function: ease-out;
+  -o-transition-property: background color; -o-transition-duration: 0.4s; -o-transition-timing-function: ease-out; 
+  transition-property: background color; transition-duration: 0.4s; transition-timing-function: ease-out; }
 a:hover { color: #444; }
 a img { -webkit-transition-property: opacity; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease-out;
   -moz-transition-property: opacity; -moz-transition-duration: 0.2s; -moz-transition-timing-function: ease-out;
