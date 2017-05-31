@@ -499,7 +499,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,
 #subfooter-block-inner { padding: 0 0 40px; }
 #subfooter-block .huge { font-size: 60px; height: 70px; color: #222; }
 #subfooter-block .tagline { background: transparent; }
-#subfooter-block .tagline span { background: #e2e2e2; color: #999; }
+#subfooter-block .tagline span { background: transparent; color: #999; }
 
 .share-footer {  margin: -4px 0 20px 0; }
 .share-heading { padding-top: 30px; position: relative; color: #777; font-size: 38px; font-weight: 400; font-family: 'BebasNeueRegular', Arial, sans-serif; text-transform: uppercase; text-align: center; }
