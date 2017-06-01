@@ -73,10 +73,11 @@ a img { -webkit-transition-property: opacity; -webkit-transition-duration: 0.2s;
 a img:hover {opacity:0.8;}
 strong { font-weight: bold; }
 img { opacity: 0; 
-  -webkit-transition: opacity .4s ease-out;
-  -moz-transition: opacity .4s ease-out;
-  -o-transition: opacity .4s ease-out;
-  transition: opacity .4s ease-out; }
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+  transition: opacity .3s ease-out; }
+img.visible { opacity: 1; }
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
