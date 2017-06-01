@@ -727,7 +727,8 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 	
 	.pop-out { padding: 18px 20px; right: 0!important; }
 	
-	.alx-tabs-nav.tab-count-4 li { width: 50%; }
+	.alx-tabs-nav.tab-count-3 li { width: 50%; }
+	.alx-tabs-nav.tab-count-3 li:last-child { width: 100%; }
 	
 	.entry.empty { display: none; }
 
