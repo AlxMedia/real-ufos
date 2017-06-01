@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 /*---------------------------------------------------------------------------*/
 	AOS.init({
 		easing: 'ease-in-out-sine',
-		disable: 'mobile',
+		// disable: 'mobile',
 		once: true,
 		offset: 50
 	});
